@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data Scraper and Exporter</title>
+    <style>
+      body {
+        width: 300px;
+        font-family: Arial, sans-serif;
+      }
+      #scrape-button {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Data Scraper</h1>
+    <button id="scrape-button">Scrape Data</button>
+    <select id="format">
+      <option value="csv">CSV</option>
+      <option value="json">JSON</option>
+    </select>
+    <div id="status"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>

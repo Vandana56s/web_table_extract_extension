@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Data Scraper and Exporter",
+    "version": "1.0",
+    "description": "An extension that scrapes structured data from websites and exports it into CSV, Excel, or JSON formats.",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "storage",
+      "downloads"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      }
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  }
+  
